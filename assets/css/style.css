@@ -37,6 +37,18 @@ header.hero {
   background: radial-gradient(circle at top right, rgba(0, 194, 255, 0.25), transparent 45%), var(--bg);
 }
 
+.hero__brand {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.hero__logo {
+  width: clamp(220px, 40vw, 420px);
+  height: auto;
+}
+
 .hero__grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -248,6 +260,10 @@ p {
   .hero__actions {
     flex-direction: column;
     align-items: stretch;
+  }
+
+  .hero__brand {
+    justify-content: center;
   }
 
   .cta {
