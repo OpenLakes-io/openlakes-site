@@ -2,6 +2,9 @@
 
 Marketing landing page for the OpenLakes.io lakehouse offerings and training packages.
 
+## Portal product plan
+- See `docs/portal-plan.md` for the console/portal blueprint (personas, workflows, dbt integration, roadmap).
+
 ## Local preview
 
 ```bash
